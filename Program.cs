@@ -113,10 +113,7 @@ class Scheduler
                 }
             }
 
-            if (!scheduled)
-            {
-                Console.WriteLine($"order: {order.OrderNumber}, flight Number: not scheduled");
-            }
+        
         }
     }
 
